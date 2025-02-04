@@ -73,17 +73,17 @@ This project integrates **both encoding schemes** to ensure **reliable and effic
 5. Upload the code to ESP32-CAM using an FTDI adapter.
 ### 2️⃣ Setting Up the Flask Server on VPS
 1. Install Flask:
-  ```bash
-  pip install flask requests
-  ```
+    ```bash
+    pip install flask requests
+    ```
 2. Create a Telegram bot via BotFather and get your TOKEN.
 3. Update server.py with:
-  ```python
-  TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-  CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
-  ```
+    ```python
+    TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+    CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
+    ```
 4. Run the Flask server:
-  ```bash
-  nohup python3 server.py &
-  ```
+    ```bash
+    nohup python3 server.py &
+    ```
 
