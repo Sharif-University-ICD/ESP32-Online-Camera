@@ -1,7 +1,7 @@
 def decode_64b66b(encoded):
 
     header = (encoded[0] >> 6) & 0b11
-    if header != 0b01 and header != 0b10:
+    if header != 0b01:
         raise ValueError("Invalid sync header")
 
     scrambled_data = 0
