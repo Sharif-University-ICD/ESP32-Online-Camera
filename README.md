@@ -87,3 +87,10 @@ This project integrates **both encoding schemes** to ensure **reliable and effic
     nohup python3 server.py &
     ```
 
+## 🎥 How It Works
+### 🌐 Live Streaming
+Connect to `http://<ESP32-CAM-IP>` in a browser to view the video feed.
+### 📤 Sending Images to Telegram
+- Send p over the Serial Monitor to capture and send a photo.
+- The image will be uploaded to the Flask server and forwarded to Telegram.
+
